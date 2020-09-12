@@ -1,38 +1,50 @@
-.App {
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-button {
+  width: 50%;
+}
+.sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+.content {
+  margin: 2px 0 0;
+  overflow: initial;
+  background-color: white
+}
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+  padding: 0;
+}
+.site-layout {
+  margin-left: 200;
+}
+.avatar {
+  display: block;
+  padding-top: 10px;
+  margin: auto;
+}
+.logout {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-button {
+  float: right;
+  top: 20%;
+  bottom: 20%;
+  margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.username {
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
