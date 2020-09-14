@@ -188,7 +188,7 @@ const Dashboard = (props) => {
                     <Alert message={error} type="error" showIcon onClose={() => setErrorAlert(false)} closable/>
                 }
                 <Content className="content">
-                    <Table dataSource={data} columns={columns} />
+                    <Table dataSource={data} columns={columns} pagination={false}/>
                 </Content>
             </Layout>
             <Modal
